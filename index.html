@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Beer Pong</title>
+  </head>
+  <body>
+    <div class="game-intro">
+        <div id="top">
+            <div id="logo-btn">
+              <div id='logo-title'>
+                <!-- <img src="./images/logo.png" alt="" class="logo-img" /> -->
+                <img src="./images/new-new-logo.png" alt="" id="new-logo-img" />
+                <!-- <h1>Beer Pong</h1> -->
+              </div>
+              <div id='input'>
+
+                <div id='player-names'>
+                  <p>Player 1<input type="text" id='player-1'></p>
+                  <p>Player 2<input type="text" id='player-2'></p>
+  
+                </div>
+                  <button id="start-button">Start Game</button>
+                  <!-- <img src="./images/start.png" class="start-img"/> -->
+              </div>
+                
+            </div>      
+            
+            
+        </div>
+        
+        
+        <div id="game-board">
+            <canvas id="canvas"></canvas>
+        </div>
+
+        
+        <div id="score">
+          <div id='instructions'>
+            <p>W to move up</p>
+            <p>S to move down</p>
+          </div>
+
+          <button id="score-left">Throw</button>
+          <button id="score-right">Throw</button>
+          <div id='instructions'>
+            <p>Arrow up to move up</p>
+            <p>Arrow down to move down</p>
+          </div>
+        </div>
+      
+      </div>
+    
+    <script type="text/javascript" src="js/Player.js"></script>
+    <script type="text/javascript" src="js/Ball.js"></script>
+    <script type="text/javascript" src="js/Cups.js"></script>
+    <script type="text/javascript" src="js/Game.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>

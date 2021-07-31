@@ -1,0 +1,153 @@
+body {
+    padding: 0;
+    text-align: left;
+    background-image: url("../images/beer-background.jpg");
+    background-size: cover;
+    background-position-y: bottom;
+  }
+  
+  .game-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+  
+  .game-intro p {
+    font-size: 18px;
+    font-family: "Helvetica"
+  }
+
+  h1 {
+    font-size: 40px;
+    font-family: "Helvetica";
+    margin: 30px 30px 10px 30px;
+  }
+  
+  .logo-img {
+    width: 120px;
+    padding: 2% 0% 5% 0%;
+  }
+
+  #new-logo-img {
+    width: 300px;
+    padding: 0% 0% 5% 0%;
+  }
+
+  #logo-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #logo-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  #top {
+    display: flex;
+    flex-direction: column;
+    /* background-color: white;
+    background-size: cover;
+    background-image: linear-gradient(white, rgb(214, 213, 213)); */
+
+  }
+
+  .arrows-img {
+    width: 150px;
+  }
+
+  #input {
+    font-size: 18px;
+    background-color: #b1b1b1d7;
+    color: rgb(28, 26, 26);
+    margin: 0% 20%;
+    padding: 0px 20px;
+    box-shadow: 10%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #player-names {
+    font-size: 18px;
+    color: rgb(28, 26, 26);
+    margin: 0% 20%;
+    padding: 10px 20px;
+    box-shadow: 10%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  #player-names p {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+  }
+  
+  #start-button {
+    font-size: 18px;
+    background-color: #ce0a14;
+    color: #fff;
+    margin: 0% 20%;
+    padding: 10px 40px;
+    border: 0;
+    box-shadow: 0;
+    border-radius: 80px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .start-img {
+    width: 300px;
+    /* padding: 2% 0% 5% 0%; */
+  }
+  
+  #game-board {
+      display: flex;
+      align-items: center;
+  }
+
+  #score {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  #score button {
+    font-size: 18px;
+    font-family: 'Helvetica', 'Arial';
+    font-weight: bolder;
+    background-color: #1206bacb;
+    color: #fff;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 80px;
+  }
+
+  #instructions {
+    background-color: #9c9c9e96;
+    color: #fff;
+    margin: 20px;
+    padding: 0px 10px;
+    border-radius: 10px;
+  }
+
+  #instructions p{
+    font-size:10px;
+    font-family: 'Helvetica', 'Arial';
+    font-weight: bolder;
+    color: rgb(31, 30, 30);
+  }
